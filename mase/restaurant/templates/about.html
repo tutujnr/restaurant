@@ -1,0 +1,53 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<section>
+  <article>
+    <h1>About Us</h1>
+    <div class="row">
+      <div class="column">
+        <p>
+          Based in Kisumu, Maseno Streets. It is a family owned which 
+          focused on traditional recipes served with a
+          modern twist.
+        </p>
+        <p>
+          The chefs draw inspiration from Kalenjin, Swahili, and African culture
+          and have a menu of 12-15 items that they rotate seasonally.
+        </p>
+
+        <p>
+          The restaurant has a rustic and relaxed atmosphere with moderate
+          prices, making it a popular place for a meal any time of the day.
+        </p>
+
+        <p>
+          The restaurant is owned by two Kenyan brothers, Aron and Evans, who
+          unite together to make sure the restaurant runs smoothly. 
+        </p>
+
+        <p>
+          To craft the menu, Clara relies on family recipes and his experience
+          as a chef in Kenya.
+        </p>
+
+        <p>
+          Aron does all the marketing for the restaurant and led the effort to
+          expand the menu beyond classic Kenyan to incorporate additional
+          cuisines from the Nyanza region.
+        </p>
+      </div>
+
+      <div class="column">
+        <figure class="figure">
+          <img
+            src="{% static 'img/aron-evans.jpg' %}"
+            alt="Aron and Evans"
+          />
+          <figcaption class="figure-caption">
+            Maseno restaurant owners Aron and Evans.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </article>
+</section>
+{% endblock %}
